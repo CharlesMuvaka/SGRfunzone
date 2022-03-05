@@ -23,3 +23,52 @@
     font-weight: bolder;
     padding: 15px;
 }
+.btn:hover{
+    background-color: maroon !important;
+    color: black;
+    
+    
+}
+#cont3{
+    height: 100px;
+}
+.imageCard{
+    background-image: url("../images/IMG_2564.PNG");
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imageCard2{
+    background-image: url("../images/mk1.jpeg");
+    background-size: cover;
+    background-position: top left;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imageCard3{
+    background-image: url("../images/gof.jpeg");
+    background-size: cover;
+    background-position: top center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imageCard4{
+    background-image: url("../images/gta.jpeg");
+    background-size: cover;
+    background-position: top center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
