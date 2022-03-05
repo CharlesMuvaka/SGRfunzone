@@ -1,3 +1,25 @@
-.container{
-    background-color: #882C37;
+
+#col{
+    margin: 0;
+}
+#col1 img{
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+#col2{
+    /* margin: 20px; */
+    background-image: url(../images/game.jpeg);
+    height: 350px;
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: -5px 5px 2px grey !important;
+}
+.navbar-brand{
+    width: 30%;
+}
+.nav-link{
+    color: white;
+    font-weight: bolder;
+    padding: 15px;
 }
