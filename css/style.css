@@ -72,4 +72,54 @@
     border-radius: 10px;
     box-shadow: -5px 2px 1px grey;
 }
- 
+p{
+    font-size: 15px;
+}
+h4{
+    color: rgb(131, 41, 9);
+}
+.relic1{
+    width: 98%;
+    height: 250px;
+    background-image: url("../images/lara1.jpeg");
+    background-size: cover;
+    background-position:left center;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+.relic2{
+    width: 98%;
+    height: 250px;
+    background-image: url("../images/lara1.jpeg");
+    background-size: cover;
+    background-position:left center;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;
+}
+#cont1, #cont2{
+    background-color: rgb(48, 18, 18);
+}
+.cont9{
+    width: 100%;
+}
+.myForm{
+    height: 400px;
+}
+#date{
+    height: 50px;
+    width: 300px;
+}
+#Male, #Female{
+    height: 25px;
+    width: 25px;
+}
+#submit{
+    height: 50px;
+    width: 100px;
+    border: 1px white;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(131, 41, 9)
+}
