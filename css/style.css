@@ -42,10 +42,70 @@
     border-radius: 10px;
     box-shadow: -5px 2px 1px grey;
 }
+.image{
+    background-image: url("../images/sudoku.jpeg");
+    background-size: cover;
+    background-position: right center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.ima{
+    background-image: url("../images/fifa.jpeg");
+    background-size: cover;
+    background-position:  center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imag{
+    background-image: url("../images/chess.jpeg");
+    background-size: cover;
+    background-position: top center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
 .imageCard2{
     background-image: url("../images/mk1.jpeg");
     background-size: cover;
     background-position: top left;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.image2{
+    background-image: url("../images/code.png");
+    background-size: cover;
+    background-position: left center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imag2{
+    background-image: url("../images/scrabble.jpeg");
+    background-size: cover;
+    background-position: top center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.ima2{
+    background-image: url("../images/duty.jpeg");
+    background-size: cover;
+    background-position: center;
     width: 98%;
     height: 250px;
     border: 2px;
@@ -62,8 +122,18 @@
     border-radius: 10px;
     box-shadow: -5px 2px 1px grey;
 }
-.imageCard4{
-    background-image: url("../images/gta.jpeg");
+.image3{
+    background-image: url("../images/ludo.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imag3{
+    background-image: url("../images/poker.jpeg");
     background-size: cover;
     background-position: top center;
     width: 98%;
@@ -72,6 +142,57 @@
     border-radius: 10px;
     box-shadow: -5px 2px 1px grey;
 }
+.ima3{
+    background-image: url("../images/bbal.jpeg");
+    background-size: cover;
+    background-position: right center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imageCard4{
+    background-image: url("../images/gta.jpeg");
+    background-size: cover;
+    background-position: left center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.image4{
+    background-image: url("../images/simple.png");
+    background-size: cover;
+    background-position: top center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.imag4{
+    background-image: url("../images/snakes.png");
+    background-size: cover;
+    background-position: top center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+.ima4{
+    background-image: url("../images/candy.jpeg");
+    background-size: cover;
+    background-position: right center;
+    width: 98%;
+    height: 250px;
+    border: 2px;
+    border-radius: 10px;
+    box-shadow: -5px 2px 1px grey;
+}
+
 p{
     font-size: 15px;
 }
@@ -105,7 +226,8 @@ h4{
     width: 100%;
 }
 .myForm{
-    height: 400px;
+    height: 250px;
+    
 }
 #date{
     height: 50px;
@@ -123,3 +245,27 @@ h4{
     color: white;
     background-color: rgb(131, 41, 9)
 }
+.output{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#games1{
+    position: relative;
+}
+#minds,#puzzles, #others{
+    display: none;
+    position: absolute;
+    top: 0;   
+}
+#adventure{
+    display: flex;
+}
+/* #parent1{
+    height: 450px; 
+     background-color: red; 
+
+} */
