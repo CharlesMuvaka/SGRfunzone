@@ -1,70 +1,94 @@
-var but = document.querySelector("#adventure1");
-var but1 = document.querySelector("#puzzle");
-var but2 = document.querySelector("#mind");
-var but3 = document.querySelector("#other");
+// var but = document.querySelector("#adventure1");
+// var but1 = document.querySelector("#puzzle");
+// var but2 = document.querySelector("#mind");
+// var but3 = document.querySelector("#other");
 
-but1.onclick = function(){puzzle()};
-but.addEventListener("click", adventure);
-but2.addEventListener("click", mind);
-but3.addEventListener("click", other);
+// but1.onclick = function(){puzzle()};
+// but.addEventListener("click", adventure);
+// but2.addEventListener("click", mind);
+// but3.addEventListener("click", other);
 
 
 
-function adventure(){
-    let div = document.querySelector("#adventure");
-    let div1 = document.querySelector("#puzzles");
-    let div2 = document.querySelector("#minds");
-    let div3 = document.querySelector("#others");
+// function adventure(){
+//     let div = document.querySelector("#adventure");
+//     let div1 = document.querySelector("#puzzles");
+//     let div2 = document.querySelector("#minds");
+//     let div3 = document.querySelector("#others");
 
-    if(div.style.display == "none"){
-       div.style.display = "flex";
-    }else if(div1.style.display == "flex"){
-        div1.style.display = "none";
+//     if(div.style.display == "none"){
+//        div.style.display = "flex";
+//     }else if(div1.style.display == "flex"){
+//         div1.style.display = "none";
         
-     }
-    else{
-       div.style.display = "flex";
+//      }
+//     else{
+//        div.style.display = "flex";
     
         
-    }
+//     }
 
+// }
+// function puzzle(){
+//     let div = document.querySelector("#adventure");
+//     let div1 = document.querySelector("#puzzles");
+//     let div2 = document.querySelector("#minds");
+//     let div3 = document.querySelector("#others");
+
+//     if(div.style.display == "flex"){
+//        div.style.display = "none";
+//     }
+//     else if(div1.style.display == "none"){
+//         div1.style.display = "flex";
+//     }else{
+//         div1.style.display = "flex";
+
+//     }
+
+// }
+// function mind(){
+//     let div = document.querySelector("#adventure");
+//     let div1 = document.querySelector("#puzzles");
+//     let div2 = document.querySelector("#minds");
+//     let div3 = document.querySelector("#others");
+
+//     if(div.style.display == "none"){
+//         div.style.display = "flex";
+//      }else if(div1.style.display == "flex"){
+//          div1.style.display = "none" ;
+//      }else if(div2.style.display == "none"){
+//         div2.style.display = "flex" ;
+//     }
+//      else{
+//          div2.style.display = "flex";
+//      }
+
+
+// }
+
+var relic = document.querySelector("#relic");
+var mortal = document.querySelector("#mortal");
+var god = document.querySelector("#god");
+var theft = document.querySelector("#theft");
+
+relic.addEventListener("click", run);
+mortal.addEventListener("click", kombat);
+god.addEventListener("click", war);
+theft.addEventListener("click", grand);
+
+function run(){
+    alert("YOU JUST GOT SCAMMED.Follow along though youll enjoy the content.");
 }
-function puzzle(){
-    let div = document.querySelector("#adventure");
-    let div1 = document.querySelector("#puzzles");
-    let div2 = document.querySelector("#minds");
-    let div3 = document.querySelector("#others");
-
-    if(div.style.display == "flex"){
-       div.style.display = "none";
-    }
-    else if(div1.style.display == "none"){
-        div1.style.display = "flex";
-    }else{
-        div1.style.display = "flex";
-
-    }
-
+function kombat(){
+    alert("Check out this game in the new Ps 5 gaming console. Youll love programming");
 }
-function mind(){
-    let div = document.querySelector("#adventure");
-    let div1 = document.querySelector("#puzzles");
-    let div2 = document.querySelector("#minds");
-    let div3 = document.querySelector("#others");
-
-    if(div.style.display == "none"){
-        div.style.display = "flex";
-     }else if(div1.style.display == "flex"){
-         div1.style.display = "none" ;
-     }else if(div2.style.display == "none"){
-        div2.style.display = "flex" ;
-    }
-     else{
-         div2.style.display = "flex";
-     }
-
-
+function war(){
+    alert("Just be a gamer youll enjoy this games.PLEASE!!");
 }
+function grand(){
+    alert("Thank you for following along.Dont practice thug life like in GTA !!!");
+}
+
 
 
 
