@@ -14,8 +14,6 @@
  ### Requirements
  * Either a computer,phone,tablet or an Ipad
  * An access to the Internet
- ### Installation Process
- [Go Back to the top](#SGRFunZone)
  ## Technology Used
  * HTML - which was used to build the structure of the pages.
  * CSS - which was used to style the pages incuding the left aside navigation bar
@@ -25,11 +23,11 @@
  * Open terminal command line then navigate to the root folder of the application. 
  * Open index.html on your Browser.
   ```
-   $ git clone https://github.com/CharlesMuvaka12345/SGRfunzone.git
-
+    $ git clone  https://github.com/CharlesMuvaka12345/SGRfunzone.git
     $ cd ../path/to/the/file
     $ code .
    ```
+   [Go Back to the top](#SGRFunZone)
  ## Behaviour Driven Development
  * The website displays differents games that the user can click and play.
  * There is a form to collect users data to play the weekly challenge.
@@ -42,6 +40,8 @@
  * Displays an error if gender not selected
    * Input - ""
    * Output - "Please select your gender"
+
+   [Go Back to the top](#SGRFunZone)
  ## DevelopMent
  <p> Need to contribute?? Follow the following steps.</p>
 
@@ -66,7 +66,7 @@
  <p>If you find any bug, open an issue <a href="https://github.com/CharlesMuvaka12345/Muvkin-webPortfolio/issues">here</a> by including your search query and the expected result.</p>
  <p>Any suggestions or corrections to the code would highly be appreciated</p>
 
-   #### link to live site: 
+  * link to live site:  https://charlesmuvaka12345.github.io/SGRfunzone/
 
  ## Reference
  * Materialize CSS
