@@ -146,6 +146,8 @@ function output(e){
         output.innerHTML = "Congratulations your Akan Name is" + " " + akanFemaleName + "." + " " + "Click on play on the relic run game. Use email you registered with as username and your akan name as password. " ;
  
     }
+
+    return myForm.reset();
 }
 
 function formValidate(date,gender){
